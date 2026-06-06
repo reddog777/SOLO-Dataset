@@ -1,8 +1,8 @@
-# SOLO: A Side-Channel Analysis Dataset for ML-KEM on ARM Cortex-M4
+# SOLO: Side-channel Observations on Lattice-based Operations
 
 ![SOLO Logo](SOLO_logo.png)
 
-Welcome to Side-channel Observations on Lattice-based Operations, or the **SOLO** dataset repository. This project aims to provide the Post-Quantum Cryptography (PQC) Side-Channel Analysis (SCA) community with standardised, curated datasets to facilitate reproducible research and benchmarking of SCA attacks and countermeasures on ML-KEM (formerly CRYSTALS-Kyber).
+Welcome to the **SOLO** dataset repository, A Side-Channel Analysis Dataset for ML-KEM on ARM Cortex-M4. This project aims to provide the Post-Quantum Cryptography (PQC) Side-Channel Analysis (SCA) community with standardised, curated datasets to facilitate reproducible research and benchmarking of SCA attacks and countermeasures on ML-KEM (formerly CRYSTALS-Kyber).
 
 ---
 
