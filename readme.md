@@ -38,10 +38,10 @@ Every trace entry in the `.h5` file contains the following fields:
 
 ## Download the Datasets
 
-Due to file size limitations, the raw `.h5` files are hosted externally. 
+Due to file size limitations, the raw `.h5` files are hosted externally on Zenodo. 
 
-* **[Download SOLO Dataset Dataset 1 (e.g., Fixed Key)](#)** `[Insert Zenodo/External Link Here]`
-* **[Download SOLO Dataset Dataset 2 (e.g., Random Key)](#)** `[Insert Zenodo/External Link Here]`
+* **[Download SOLO Dataset Dataset 1 (e.g., Fixed Key)](#)** `[Witheld until ** LAUNCH DATE **]`
+* **[Download SOLO Dataset Dataset 2 (e.g., Random Key)](#)** `[Witheld until ** LAUNCH DATE **]`
 
 ---
 
