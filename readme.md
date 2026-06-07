@@ -1,4 +1,4 @@
-# SOLO: Side-channel Observations on Lattice-based Operations
+# Side-channel Observations on Lattice-based Operations
 
 ![SOLO Logo](SOLO_logo.png)
 
