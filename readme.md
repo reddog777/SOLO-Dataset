@@ -62,15 +62,15 @@ Ensure your downloaded HDF5 trace containers are placed in the matching director
 - `data/random/` -> Place random-key HDF5 files here.
 
 ### Usage Instructions
-The analysis script supports both sequential and randomized trace sampling to evaluate temporal hardware noise and statistical variance.
+The analysis script supports both sequential and randomised trace sampling to evaluate temporal hardware noise and statistical variance.
 
 Run the assessment using the default configuration (Randomised Sampling, 500 traces):
 
 python scripts/tvla_assessment.py
 
-### ⚙️ Script Configuration & Customization
+### ⚙️ Script Configuration & Customisation
 
 The TVLA assessment script uses Python's `argparse` module via the `parse_arguments()` function. This enables flexible configuration. You can customise your execution environment in two ways: **directly editing the script's defaults** (ideal for Jupyter/ChipWhisperer Notebook cells) or **passing command-line overrides** (ideal for terminal runs).
 
-Open `scripts/tvla_assessment.py` and modify the parameters inside `parse_arguments()` to customize the behavior:
+Open `scripts/tvla_assessment.py` and modify the parameters inside `parse_arguments()` to customise the behavior:
 
