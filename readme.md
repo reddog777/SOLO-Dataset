@@ -50,5 +50,27 @@ Due to file size limitations, the raw `.h5` files are hosted externally.
 ### Prerequisites
 To read the dataset, you will need Python 3 with `h5py` and `numpy`.
 
-```bash
 pip install -r requirements.txt
+
+## 📊 Case Study: TVLA Leakage Assessment
+
+This repository includes a production-ready Test Vector Leakage Assessment (TVLA) engine to evaluate side-channel vulnerabilities in post-quantum cryptography implementations (specifically targeting ML-KEM / Kyber decapsulation cores).
+
+### Directory Structure
+Ensure your downloaded HDF5 trace containers are placed in the matching directories:
+- `data/fixed/` -> Place fixed-key HDF5 files here.
+- `data/random/` -> Place random-key HDF5 files here.
+
+### Usage Instructions
+The analysis script supports both sequential and randomized trace sampling to evaluate temporal hardware noise and statistical variance.
+
+Run the assessment using the default configuration (Randomised Sampling, 500 traces):
+
+python scripts/tvla_assessment.py
+
+### ⚙️ Script Configuration & Customization
+
+The TVLA assessment script uses Python's `argparse` module via the `parse_arguments()` function. This enables flexible configuration. You can customise your execution environment in two ways: **directly editing the script's defaults** (ideal for Jupyter/ChipWhisperer Notebook cells) or **passing command-line overrides** (ideal for terminal runs).
+
+Open `scripts/tvla_assessment.py` and modify the parameters inside `parse_arguments()` to customize the behavior:
+
