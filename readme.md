@@ -59,7 +59,7 @@ This repository includes a production-ready Test Vector Leakage Assessment (TVLA
 ### Directory Structure
 Ensure your downloaded HDF5 trace containers are placed in the matching directories:
 - `data/fixed/` -> Place fixed-key HDF5 files here.
-- `data/random/` -> Place random-key HDF5 files here.
+- `data/variable/` -> Place variable-key HDF5 files here.
 
 ### Usage Instructions
 The analysis script supports both sequential and randomised trace sampling to evaluate temporal hardware noise and statistical variance.
