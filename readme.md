@@ -40,8 +40,8 @@ Every trace entry in the `.h5` file contains the following fields:
 
 Due to file size limitations, the raw `.h5` files are hosted externally. 
 
-* **[Download SOLO Dataset Dataset 1 (e.g., Fixed Key)](#)** `[Witheld until ** LAUNCH DATE **]`
-* **[Download SOLO Dataset Dataset 2 (e.g., Random Key)](#)** `[Witheld until ** LAUNCH DATE **]`
+* **[Download SOLO Dataset Dataset 1 (Fixed Key)](#)** `[Witheld until ** LAUNCH DATE **]`
+* **[Download SOLO Dataset Dataset 2 (Variable Key)](#)** `[Witheld until ** LAUNCH DATE **]`
 
 ---
 
